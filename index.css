@@ -21,7 +21,6 @@ nav a {
     display: inline;
 }
 
-
 .rami,
 .christian,
 .portia,
@@ -31,7 +30,7 @@ nav a {
 .sam img {
     display: inline;
     background-color: white;
-    float: left; 
+    float: left;
 }
 
 main {
