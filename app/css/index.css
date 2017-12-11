@@ -19,19 +19,9 @@ nav a {
     padding: 20px;
     font-weight: bold;
     display: inline;
+    font-size: 2em;
 }
 
-/* .rami,
-.christian,
-.portia,
-.carly,
-.martin,
-.wong,
-.sam img {
-    display: inline;
-    background-color: white;
-} */
-
 a {
-    display: inline; 
+    display: inline;
 }
