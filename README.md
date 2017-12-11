@@ -1,6 +1,6 @@
 # Mrshowbot
 -The purpose of the site is clearly stated.
-=Navigation is easy, intuitive and flexible, with each subsequent page linking back to home page
+-Navigation is easy, intuitive and flexible, with each subsequent page linking back to home page
 -The intended audience for which the website was built is included.
 -Images are sized to load quickly and are displayed in an appropriate format (mpg, jpg, gif, png). Multimedia elements have a clear purpose and load quickly. Large files indicate the file size with a user option to download
 -Text is easy to read and contrasts with the background.
