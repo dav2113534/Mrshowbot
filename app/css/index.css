@@ -19,10 +19,12 @@ nav a {
     font-weight: bold;
     font-size: 2em;
     text-align: center;
+    /* background-color: black;  */
 }
 
 nav a:hover {
     text-decoration: none;
+    font-size: 3em;
 }
 
 a {
