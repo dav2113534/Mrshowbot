@@ -21,7 +21,7 @@ nav a {
     display: inline;
 }
 
-.rami,
+/* .rami,
 .christian,
 .portia,
 .carly,
@@ -30,9 +30,8 @@ nav a {
 .sam img {
     display: inline;
     background-color: white;
-    float: left;
-}
+} */
 
-main {
-    margin-left: 165px;
+a {
+    display: inline; 
 }
