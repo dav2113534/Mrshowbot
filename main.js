@@ -1,3 +1,4 @@
-function randomGen(){
-    
+function randomGen() {
+    return console.log(quotes);
 }
+
