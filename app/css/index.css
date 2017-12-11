@@ -16,14 +16,9 @@ body {
 
 nav a {
     text-decoration: none;
-    padding: 20px;
     font-weight: bold;
-    display: inline;
     font-size: 2em;
-}
-
-nav {
-    padding-bottom: 5em; 
+    text-align: center;
 }
 
 nav a:hover {
