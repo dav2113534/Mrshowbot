@@ -22,6 +22,10 @@ nav a {
     font-size: 2em;
 }
 
+nav {
+    padding-bottom: 5em; 
+}
+
 nav a:hover {
     text-decoration: none;
 }
