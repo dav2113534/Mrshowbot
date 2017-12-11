@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: #b3c7e6;
+    width: 80%;
+    margin: auto;
+    min-width: 50%;
+    padding-left: 5px;
+    padding-bottom: .5px;
+    padding-top: .5px;
+}
