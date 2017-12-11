@@ -19,20 +19,13 @@ nav a {
     padding: 20px;
     font-weight: bold;
     display: inline;
+    font-size: 2em;
 }
 
-.rami,
-.christian,
-.portia,
-.carly,
-.martin,
-.wong,
-.sam img {
+nav a:hover{
+    text-decoration: none; 
+}
+
+a {
     display: inline;
-    background-color: white;
-    float: left;
-}
-
-main {
-    margin-left: 165px;
 }
