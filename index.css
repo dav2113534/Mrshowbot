@@ -3,16 +3,19 @@
 }
 
 #wrapper {
-    background-color: #b3c7e6;
+    background-color: rgba(0, 0, 0, 0.83);
     width: 80%;
     margin: auto;
     min-width: 50%;
     padding-left: 5px;
     padding-bottom: .5px;
     padding-top: .5px;
+    color: #2F9B32;
+    text-align: center; 
 }
 
 nav { 
     width: 50%; 
     display: block; 
 }
+
