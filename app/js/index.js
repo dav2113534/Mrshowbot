@@ -1,3 +1,4 @@
+//In future change this to objects with the quote who was quoted
 let quotes = [
     "World catastrophes like this, they aren't caused by lone wolves like you. They occur because men like me allow them. You just happened to stumble into one.",
     "You can't force an agenda, Mr. Alderson. You have to inspire one.",

@@ -1,8 +1,5 @@
-let gen = $('#random').click(function () {
-    $('span').text(randomQuote(quotes.length));
-})
+function newQuote() {
+    let randomNumber = Math.floor(Math.random() * (quotes.length));
 
-function randomQuote(list) {
-    var i = Math.floor(Math.random() * list);
-    return list[i];
+    document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
