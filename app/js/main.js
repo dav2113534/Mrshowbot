@@ -1,5 +1,5 @@
-$('#random').hover(function () {
-    $('h2').text(randomQuote(quotes.length));
+let gen = $('#random').click(function () {
+    $('span').text(randomQuote(quotes.length));
 })
 
 function randomQuote(list) {
