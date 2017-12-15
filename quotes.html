@@ -2,43 +2,46 @@
 <html lang="en">
 
 <head>
-    <title>quotes page for mr showbot</title>
+    <title>quote generator for Mr. Showbot</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link href="app/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <div>
         <header>
-            <h1>Mr. Showbot</h1>
+            <h1 class="jumbotron">Mr. Showbot</h1>
         </header>
-        <nav>
-
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <a href="main.html">Home</a>
             <a href="socialMedia.html">Social Media</a>
-            <a href="blog.html">Blog</a>
+            <a href="carousel.html">Pictures</a>
             <a href="quotes.html">Quotes</a>
         </nav>
 
         <main>
-            <h2>Mr. Showbot Popular Quotes</h2>
-            <div>
-                <h3>Random Quote Generator</h3>
+            <h1>Mr. Showbot Popular Quotes</h1>
+            <div id="quoteDisplay">
+                <!-- Quotes will display here -->
             </div>
-            <div>
-                <span id="random">Quote</span>
-            </div>
+            <button onclick="newQuote()">New Quote</button>
         </main>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-    <script src="main.js"></script>
+    <script src="app/js/index.js"></script>
+    <script src="app/js/main.js"></script>
 
 </body>
+<footer>
+    <p>Created by: David Palacios</p>
+    <a href="https://github.com/dav2113534"><i class="fa fa-github" style="font-size:50px;color:#03780e"></i></a>
+</footer>
 
 </html>

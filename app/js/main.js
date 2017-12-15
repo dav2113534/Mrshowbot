@@ -1,14 +1,5 @@
-// function randomLoop() {
-//     for (var i = 0; i < quotes.length; i++) {
-//         return Math.floor(Math.random() * i)
-//     }
-// }
+function newQuote() {
+    let randomNumber = Math.floor(Math.random() * (quotes.length));
 
-$('#random').hover(function () {
-    $('h2').text(randomQuote(quotes.length));
-})
-
-function randomQuote(list) {
-    var i = Math.floor(Math.random() * list);
-    return list[i];
+    document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
